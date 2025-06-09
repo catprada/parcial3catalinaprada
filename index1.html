@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G&M Glam - Tu Tienda de Maquillaje</title>
+    <!-- iconos-->
+    <link rel="apple-touch-icon" href="assets/img/">
+    <!-- css-->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/templatemo.css">
+     <link rel="stylesheet" href="assets/css/custom.css">
+     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+     <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .Logo {
+            text-align: center;
+            padding: 15px 0 !important;
+            margin-bottom: 0 !important;
+            background: #f8f8f8;
+        }
+        .Logo img {
+            width: 200px;
+            height: auto;
+            filter: grayscale(100%);
+            transition: all 0.3s ease;
+        }
+        .Logo img:hover {
+            filter: grayscale(0%);
+        }
+        .navbar {
+            background: #000000 !important;
+            padding: 20px 0;
+            margin-bottom: 0 !important;
+        }
+        .nav-link {
+            color: #ffffff !important;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            padding: 10px 20px !important;
+            transition: all 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #d4af37 !important;
+        }
+        .carrusel-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 10px auto !important;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .carrusel {
+            display: flex;
+            width: 300%;
+            animation: slide 15s infinite;
+        }
+        .carrusel img {
+            width: 100%;
+            flex: 1 0 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+            100% { transform: translateX(0); }
+        }
+        h1 {
+            color: #000000;
+            margin: 15px 0 !important;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        .btn-primary {
+            background: #000000;
+            border: none;
+            color: #ffffff;
+            font-weight: 500;
+            padding: 12px 30px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background: #d4af37;
+            color: #000000;
+        }
+        footer {
+            background: #000000 !important;
+            color: #ffffff;
+            padding: 10px 0 !important;
+            margin-top: 0 !important;
+        }
+        footer h2, .log, .border-bottom {
+            color: #e75480 !important;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        footer .border-bottom {
+            border-color: #e75480 !important;
+        }
+        footer .text-light {
+            color: #ffffff !important;
+        }
+        footer a {
+            color: #ffffff !important;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        footer a:hover {
+            color: #d4af37 !important;
+        }
+        .footer-bottom {
+            background: #000000;
+            padding: 7px 0 !important;
+            margin-top: 10px !important;
+        }
+        .container.mt-5 {
+            margin-top: 1rem !important;
+            margin-bottom: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .row {
+            margin-bottom: 0 !important;
+        }
+        .mb-4 {
+            margin-bottom: 0.5rem !important;
+        }
+        .mb-5 {
+            margin-bottom: 0.5rem !important;
+        }
+        .card {
+            margin-bottom: 0.5rem !important;
+        }
+        .card-img-top {
+            height: 600px !important;
+            object-fit: cover !important;
+            width: 100% !important;
+        }
+     </style>
+</head>
+<body>
+    <!-- inicio encabezado-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@gymglam.com">info@gymglam.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel: 057-320-202-02-02">057-320-202-02-02</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/gymglam" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/gymglam" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/gymglam" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- fin encabezado-->
+    <!-- inicio menu-->
+     <div class="Logo">
+         <img src="Imagen de WhatsApp 2025-06-06 a las 21.47.25_30f47c08.jpg" alt="G&M Glam Logo" style="width: 180px; height: auto; filter: grayscale(100%);">      
+     </div>
+
+     <nav class="navbar navbar-expand-lg navbar-dark" style="background: #000000 !important; padding: 20px 0;">
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse justify-content-center" id="opciones">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: #ffffff !important; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem; padding: 10px 20px !important;">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="acercade.html" style="color: #ffffff !important; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem; padding: 10px 20px !important;">Nuestra marca</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="compras.html" style="color: #ffffff !important; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem; padding: 10px 20px !important;">Compras</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="productos.html" style="color: #ffffff !important; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem; padding: 10px 20px !important;">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="contacto.html" style="color: #ffffff !important; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; font-size: 0.9rem; padding: 10px 20px !important;">Contacto</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+     </nav>
+<!-- fin menu-->
+  <div class="carrusel-container">
+    <div class="carrusel">
+      <img src="charlotte-tilbury-beauty-soulmates-67e5559a9434e.avif" alt="Charlotte Tilbury">
+      <img src="image_d671bf6d-55de-4043-aed0-dab8d2d75ad0.jpg" alt="Productos de Maquillaje">
+      <img src="screen-shot-2018-05-29-at-2-03-32-pm-1527617321.avif" alt="Colección de Verano">
+      <img src="vibes-home-articlecard-1up-d-retina-cleanvegan-1549617790.avif" alt="Productos Veganos">
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <h1 class="text-center"><i>Descubre la Belleza con G&M Glam</i></h1>
+    <p class="text-center mb-5">Tu destino para encontrar las mejores marcas de maquillaje y productos de belleza</p>
+
+    <!-- Productos Destacados -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="charlootee111.jpg" class="card-img-top" alt="Producto 1" style="height: 600px; object-fit: cover; width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Charlotte Tilbury</h5>
+                            <p class="card-text">Descubre la magia del maquillaje con nuestra colección de Charlotte Tilbury.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="elf.......jpg" class="card-img-top" alt="Producto 2" style="height: 600px; object-fit: cover; width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">ELF Cosmetics</h5>
+                            <p class="card-text">Productos de alta calidad a precios accesibles para todos.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="dirg.jpg" class="card-img-top" alt="Producto 3" style="height: 600px; object-fit: cover; width: 100%;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dior Beauty</h5>
+                            <p class="card-text">Lujo y elegancia en cada producto de nuestra colección Dior.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+
+    <!-- inicio secciones-->
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     <!-- fin secciones-->
+    
+    <!-- inicio de pie-->
+    <footer class="bg-dark" id="templatemo_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light log" style="color: #e75480 !important; border-color: #e75480 !important;">G&M Glam</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-market-alt fa-fw"></i>
+                            Local principal - Barranquilla - Colombia
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+57 310 8228480">+57 310 8228480</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope mx-2"></i>
+                            <a class="text-decoration-none" href="mailto:info@gymglam.com">info@gymglam.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light" style="color: #e75480 !important; border-color: #e75480 !important;">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Charlotte Tilbury</a></li>
+                        <li><a class="text-decoration-none" href="#">ELF Cosmetics</a></li>
+                        <li><a class="text-decoration-none" href="#">Dior Beauty</a></li>
+                        <li><a class="text-decoration-none" href="#">Milk Makeup</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light" style="color: #e75480 !important; border-color: #e75480 !important;">Más información</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="acercade.html">Nuestra marca</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Compras</a></li>
+                        <li><a class="text-decoration-none" href="productos.html">Productos</a></li>
+                        <li><a class="text-decoration-none" href="contacto.html">Contáctenos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <p class="text-left text-light" align="center">
+                        Copyright &copy; 2025 - G&M Glam | Diseñado por: Maria Castilla y Catalina Prada
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
